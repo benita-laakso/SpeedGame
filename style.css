@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(148, 194, 96);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#ciscles {
+  display: flex;
+}
+
+.circel {
+  background-color: gray;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+button {
+  margin: 50px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.close {
+  margin: 10px;
+  margin-left: 650px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#message {
+  margin-top: 100px;
+}
+
+.circel:active {
+  box-shadow: 20px 20px 50px 10px pink inset;
+}
+
+#box {
+  top: 200px;
+  left: 300px;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  height: 300px;
+  width: 700px;
+  padding: 20px;
+  text-align: center;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .5);
+  visibility: hidden;
+  /*display: none;*/
+  align-items: center;
+  justify-content: center;
+}
